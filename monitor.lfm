@@ -1,0 +1,32 @@
+object FMonitor: TFMonitor
+  Left = 763
+  Height = 298
+  Top = 284
+  Width = 473
+  Caption = 'Monitoring'
+  ClientHeight = 298
+  ClientWidth = 473
+  Color = 3355443
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object Memo1: TMemo
+    Left = 4
+    Height = 290
+    Top = 4
+    Width = 465
+    Align = alClient
+    BorderSpacing.Around = 4
+    BorderStyle = bsNone
+    Color = 3355443
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'Droid Sans Mono'
+    Lines.Strings = (
+      'Memo1'
+    )
+    ParentFont = False
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+end
